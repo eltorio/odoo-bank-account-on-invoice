@@ -7,7 +7,6 @@
 		<field name="arch" type="xml">
 			<xpath expr="//field[@name='currency_id']" position="after">
 				<field name="iban_qr_number" string="IBAN QR Code on Invoice" placeholder="NL91ABNA0417164300" groups="base.group_no_one"/>
-				<field name="iban_qr_number" groups="!base.group_no_one" invisible="1" />
 			</xpath>
 		</field>
 	</record>
