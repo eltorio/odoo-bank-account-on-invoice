@@ -2,9 +2,9 @@ allow_k8s_contexts('kubernetesOCI')
 datei=str(local("date -I| openssl dgst -sha1 -r | awk '{print $1}' | tr -d '\n'"))
 sha1=str(local("cat Dockerfile | openssl dgst -sha1 -r | awk '{print $1}' | tr -d '\n'"))
 Namespace='sandbox-odoo-dev'
-ModuleName='my_module'
+ModuleName='iban_on_invoice_module'
 ModulePath='./'+ModuleName
-CacheRegistry='ttl.sh/sanbox-gitea-dev-'+datei+'-cache'
+CacheRegistry='ttl.sh/sanbox-cache-dev-'+datei+'-cache'
 Registry='ttl.sh/sanbox-odoo-dev-'+sha1
 default_registry(Registry)
 

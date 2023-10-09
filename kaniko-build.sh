@@ -2,6 +2,8 @@
 # Tiltfile looks like:
 
 echo "NAMESPACE=$NAMESPACE MODULEPATH=$MODULEPATH MODULENAME=$MODULENAME"
+echo "REGISTRY: $DOCKER_REGISTRY"
+echo "CACHE REGISTRY: $DOCKER_CACHE_REGISTRY"
 KANIKO_POD=$(kubectl -n $NAMESPACE get pods | grep "kaniko" | cut -d' ' -f1)
 BAD_RANDOM=$(echo $RANDOM-$RANDOM-$RANDOM-$RANDOM | openssl dgst -sha1 -r | awk '{print $1}' | tr -d '\n' )
 kubectl create namespace $NAMESPACE
