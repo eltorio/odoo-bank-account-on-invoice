@@ -11,7 +11,7 @@ kubectl create namespace $NAMESPACE
 echo "CURRENT KANIKO POD is kaniko-$BAD_RANDOM"
 kubectl -n $NAMESPACE delete pod --wait=false $KANIKO_POD 2>/dev/null
 tar -cv --exclude "node_modules" --exclude "dkim.rsa" --exclude "private" --exclude "k8s" --exclude ".git" --exclude ".github" --exclude-vcs --exclude ".docker" --exclude "_sensitive_datas" -f - \
-  ./Dockerfile odoo.conf.tpl $MODULEPATH | gzip -9 | kubectl run -n $NAMESPACE kaniko-$BAD_RANDOM \
+  ./Dockerfile odoo.conf.tpl | gzip -9 | kubectl run -n $NAMESPACE kaniko-$BAD_RANDOM \
   --rm --stdin=true \
   --image=highcanfly/kaniko:latest --restart=Never \
   --overrides='{
