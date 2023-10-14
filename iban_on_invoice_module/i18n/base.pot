@@ -63,3 +63,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
 msgid "Scan QR with banking app."
 msgstr ""
+
+#. module: ow_invoice_iban_qr
+#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
+msgid "IBAN acount number"
+msgstr "BIC bank identifier"

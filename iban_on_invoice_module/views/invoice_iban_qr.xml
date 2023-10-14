@@ -11,8 +11,8 @@
 						banking app.</p>
 				</div>
 				<div style="margin-left: 1rem;">
-					<p>IBAN: <span t-field="o.company_id.iban_qr_number.acc_number" /></p>
-					<p>BIC: <span t-field="o.company_id.iban_qr_number.bank_id.bic" /></p>
+					<p>IBAN acount number<span t-field="o.company_id.iban_qr_number.acc_number" /></p>
+					<p>BIC bank identifier<span t-field="o.company_id.iban_qr_number.bank_id.bic" /></p>
 				</div>
 			</div>
 			<br />
