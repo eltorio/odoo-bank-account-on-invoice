@@ -31,7 +31,7 @@ msgstr ""
 #. module: ow_invoice_iban_qr
 #: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.res_company_form
 msgid "IBAN QR Code on Invoice"
-msgstr "IBAN QR Code op factuur"
+msgstr ""
 
 #. module: ow_invoice_iban_qr
 #: code:addons/ow_invoice_iban_qr/models/invoice_iban_qr.py:35
@@ -62,4 +62,4 @@ msgstr ""
 #. module: ow_invoice_iban_qr
 #: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
 msgid "Scan QR with banking app."
-msgstr "Scan QR met bank-app."
+msgstr ""
