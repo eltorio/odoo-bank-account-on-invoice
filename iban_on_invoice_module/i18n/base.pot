@@ -67,4 +67,9 @@ msgstr ""
 #. module: ow_invoice_iban_qr
 #: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
 msgid "IBAN acount number"
-msgstr "BIC bank identifier"
+msgstr ""
+
+#. module: ow_invoice_iban_qr
+#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
+msgid "BIC bank identifier"
+msgstr ""
