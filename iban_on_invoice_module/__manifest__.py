@@ -7,7 +7,7 @@
     "summary": "Add IBAN QR Code on Invoice for scanning in mobile banking apps",
     "version": "1.1",
     "author": "Openworx",
-    "website": "https://www.openworx.nl",
+    "website": "https:/sctg.eu.org",
     'category': 'Accounting',
     "depends": ['account'],
     "data": [
