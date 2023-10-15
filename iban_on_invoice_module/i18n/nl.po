@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0-20190402\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 12:51+0000\n"
-"PO-Revision-Date: 2023-10-14 15:14+0000\n"
+"PO-Revision-Date: 2023-10-15 08:54+0000\n"
 "Last-Translator: Weblate Admin <ronan.le_meillat@parapente.eu.org>\n"
-"Language-Team: Dutch <https://weblate.oci.sctg.eu.org/projects/odoo-bank-"
-"account-on-invoice/ui/nl/>\n"
+"Language-Team: Dutch <https://weblate.oci.sctg.eu.org/projects/"
+"odoo-bank-account-on-invoice/ui/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,17 +67,13 @@ msgstr "Scan QR met bank-app."
 
 #. module: iban_on_invoice_module
 #: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
-#, fuzzy
-#| msgid "IBAN acount number: "
 msgid "IBAN acount number:"
-msgstr "IBAN acount nummer "
+msgstr "IBAN acount nummer:"
 
 #. module: iban_on_invoice_module
 #: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
-#, fuzzy
-#| msgid "BIC bank identifier: "
 msgid "BIC bank identifier:"
-msgstr "BIC-bankidentificatie "
+msgstr "BIC-bankidentificatie:"
 
 #. module: iban_on_invoice_module
 #: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
