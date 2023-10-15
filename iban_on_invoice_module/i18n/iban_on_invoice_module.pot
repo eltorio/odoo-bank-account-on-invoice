@@ -61,7 +61,7 @@ msgstr ""
 
 #. module: iban_on_invoice_module
 #: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
-msgid "Scan QR with banking app."
+msgid "Scan this QR code with an EPC compliant banking app."
 msgstr ""
 
 #. module: iban_on_invoice_module
