@@ -22,7 +22,8 @@ custom_build('odoo_bitnami_custom_tilted', './kaniko-build.sh', [
     ModuleName
 ], skips_local_docker = True,
     live_update = [
-        sync(ModulePath, '/dev-addons/'+ModuleName)
+        sync(ModulePath, '/dev-addons/'+ModuleName),
+        run("chmod ugo+rw -R /dev-addons")
     ])
 
 helm_resource('odoo-dev',

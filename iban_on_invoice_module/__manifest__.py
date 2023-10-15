@@ -3,20 +3,18 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
 {
-    "name": "IBAN QR Code on Invoice",
-    "summary": "Add IBAN QR Code on Invoice for scanning in mobile banking apps",
-    "version": "1.1",
-    "author": "Openworx",
-    "website": "https:/sctg.eu.org",
+    'name': 'IBAN QR Code on Invoice',
+    'summary': 'Add IBAN QR Code on Invoice for scanning in mobile banking apps',
+    'version': '0.9',
+    'author': 'SCTG',
+    'website': "https:/sctg.eu.org",
     'category': 'Accounting',
-    "depends": ['account'],
-    "data": [
+    'depends': ['account','base_iban','accounting_pdf_reports'],
+    'data': [
         'views/invoice_iban_qr.xml',
-	'views/res_company_view.xml',
-	'security/ir.model.access.csv',
+        'views/res_company_view.xml',
+        'security/ir.model.access.csv',
     ],
-    "license": "LGPL-3",
+    'license': 'LGPL-3',
     'images': ['images/ibanqr.png'],
-    "installable": True,
-    "application": False,
 }

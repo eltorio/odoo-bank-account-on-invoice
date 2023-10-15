@@ -21,3 +21,5 @@ Here I choosed Tilt.
 - because odoo doesn't like starting with bugged modules, the first deployement is manual.  
 - on [ Tilt UI ](http://localhost:10350/r/odoo-dev/overview) Hit **push module**
 - now in odoo refresh the App list and (without the App filter) you can find **my_module**
+
+odoo-bin --config /opt/bitnami/odoo/conf/odoo.conf -u iban_on_invoice_module
