@@ -1,3 +1,6 @@
+# IBAN and its EPC QR code on invoices
+This is based on Openworx code (LGPLv3) these modifications are published **as is** under AGPLv3.  
+![Invoice screenshot](/iban_on_invoice_module/static/description/invoice_qr.png)
 # Odoo kubernetes development environment with Tilt.dev
 ## Why ?
 I love Kubernetes, but when its time to develop. It becomes complicated !  
