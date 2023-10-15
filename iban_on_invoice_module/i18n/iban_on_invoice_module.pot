@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* ow_invoice_iban_qr
+# 	* iban_on_invoice_module
 #
 msgid ""
 msgstr ""
@@ -17,64 +17,64 @@ msgstr ""
 "Last-Translator: \n"
 "Language: nl\n"
 
-#. module: ow_invoice_iban_qr
-#: model:ir.model,name:ow_invoice_iban_qr.model_res_company
+#. module: iban_on_invoice_module
+#: model:ir.model,name:iban_on_invoice_module.model_res_company
 msgid "Companies"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: code:addons/ow_invoice_iban_qr/models/invoice_iban_qr.py:35
+#. module: iban_on_invoice_module
+#: code:addons/iban_on_invoice_module/models/invoice_iban_qr.py:35
 #, python-format
 msgid "Error"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.res_company_form
+#. module: iban_on_invoice_module
+#: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.res_company_form
 msgid "IBAN QR Code on Invoice"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: code:addons/ow_invoice_iban_qr/models/invoice_iban_qr.py:35
+#. module: iban_on_invoice_module
+#: code:addons/iban_on_invoice_module/models/invoice_iban_qr.py:35
 #, python-format
 msgid "IBAN QR code \"%s\" length %s exceeds 331 bytes"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model:ir.model.fields,field_description:ow_invoice_iban_qr.field_res_company__iban_qr_number
+#. module: iban_on_invoice_module
+#: model:ir.model.fields,field_description:iban_on_invoice_module.field_res_company__iban_qr_number
 msgid "Iban Qr Number"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model:ir.model,name:ow_invoice_iban_qr.model_account_invoice
+#. module: iban_on_invoice_module
+#: model:ir.model,name:iban_on_invoice_module.model_account_invoice
 msgid "Invoice"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.res_company_form
+#. module: iban_on_invoice_module
+#: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.res_company_form
 msgid "NL91ABNA0417164300"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model:ir.model.fields,field_description:ow_invoice_iban_qr.field_account_invoice__qr_image
+#. module: iban_on_invoice_module
+#: model:ir.model.fields,field_description:iban_on_invoice_module.field_account_invoice__qr_image
 msgid "QR Code"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
+#. module: iban_on_invoice_module
+#: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
 msgid "Scan QR with banking app."
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
-msgid "IBAN acount number: "
+#. module: iban_on_invoice_module
+#: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
+msgid "IBAN acount number:"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
-msgid "BIC bank identifier: "
+#. module: iban_on_invoice_module
+#: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
+msgid "BIC bank identifier:"
 msgstr ""
 
-#. module: ow_invoice_iban_qr
-#: model_terms:ir.ui.view,arch_db:ow_invoice_iban_qr.account_invoice_report_template
+#. module: iban_on_invoice_module
+#: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
 msgid "Add IBAN QR Code on Invoice for scanning in mobile banking apps"
 msgstr ""
