@@ -64,7 +64,7 @@ msgstr "Código QR"
 #: model_terms:ir.ui.view,arch_db:iban_on_invoice_module.account_invoice_report_template
 #, fuzzy
 #| msgid "Scan QR with banking app."
-msgid "Scan this QR code with an EPC compliant banking app."
+msgid "Scan this QR code with an EPC guidelines compliant banking app."
 msgstr "Escanee QR con la aplicación bancaria."
 
 #. module: iban_on_invoice_module
