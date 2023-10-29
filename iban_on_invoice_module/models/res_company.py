@@ -7,5 +7,5 @@ from odoo import models, fields
 class ResCompany(models.Model):
 
     _inherit = 'res.company'
-
-    iban_qr_number = fields.Many2one('res.partner.bank', domain="[('partner_id','=', partner_id)]",)
+    
+    iban_qr_number = fields.Many2one('res.partner.bank')

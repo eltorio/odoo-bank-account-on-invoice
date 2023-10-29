@@ -6,7 +6,7 @@
 		<field name="inherit_id" ref="base.view_company_form" />
 		<field name="arch" type="xml">
 			<xpath expr="//field[@name='currency_id']" position="after">
-				<field name="iban_qr_number" string="IBAN QR Code on Invoice" placeholder="FR7630004000031234567890143" groups="base.group_no_one"/>
+				<field name="iban_qr_number" string="IBAN QR Code on Invoice" placeholder="FR7630004000031234567890143"/>
 			</xpath>
 		</field>
 	</record>
