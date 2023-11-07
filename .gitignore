@@ -162,3 +162,4 @@ cython_debug/
 .vscode/settings.json
 _values.yaml
 d.yaml
+test_base.zip

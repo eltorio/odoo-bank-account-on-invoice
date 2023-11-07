@@ -35,6 +35,19 @@ odoo:
           echo "Run init cron"
           ln -svf /usr/local/bin/autobackup /etc/cron.weekly/
           cron -f &
+  # command:
+    # - /bin/sh
+    # - "-c"
+    # - "sleep infinity"
+    # for manually launching:
+    # 0 - restore the database with /restore_database.sh
+    # 1 - run /opt/bitnami/scripts/odoo/entrypoint.sh /opt/bitnami/scripts/odoo/run.sh
+    # 2 - next /opt/bitnami/scripts/odoo/entrypoint.sh /opt/bitnami/scripts/odoo/run.sh
+    # 3- port forward 5678:5678 for debugger
+  command:
+      - /bin/sh
+      - "-c"
+      - "/docker-entrypoint-init.d/start-autobackup-cron ; /opt/bitnami/scripts/odoo/entrypoint.sh /opt/bitnami/scripts/odoo/run.sh"
   livenessProbe:
     periodSeconds: 30
     timeoutSeconds: 10

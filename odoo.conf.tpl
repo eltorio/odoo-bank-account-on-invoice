@@ -14,6 +14,7 @@ db_template = template1
 db_user = {{ODOO_DATABASE_USER}}
 dbfilter = .*
 debug_mode = True
+dev_mode = all
 email_from = {{ODOO_EMAIL}}
 http_port = {{ODOO_PORT_NUMBER}}
 ; limit_memory_hard = 2684354560

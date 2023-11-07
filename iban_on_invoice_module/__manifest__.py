@@ -5,7 +5,7 @@
 {
     'name': 'IBAN QR Code on Invoice',
     'summary': 'Add IBAN QR Code on Invoice for scanning in mobile banking apps',
-    'version': '0.11',
+    'version': '0.12',
     'author': 'SCTG',
     'website': "https:/sctg.eu.org",
     'category': 'Accounting',

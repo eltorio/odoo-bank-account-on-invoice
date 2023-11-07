@@ -12,11 +12,11 @@
 							style="padding: 2px;" />
 					</td>
 					<td>IBAN acount number: <span
-							t-field="o.company_id.iban_qr_number.acc_number" /></td>
+							t-field="o.iban" /></td>
 				</tr>
 				<tr>
 					<td>BIC bank identifier: <span
-							t-field="o.company_id.iban_qr_number.bank_id.bic" /></td>
+							t-field="o.bic" /></td>
 				</tr>
 				<tr>
 

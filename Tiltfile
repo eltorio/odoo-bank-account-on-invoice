@@ -32,7 +32,9 @@ helm_resource('odoo-dev',
     flags = ['--values=./_values.yaml', '--set', 'odoo.image.registry=ttl.sh'],
     image_deps = ['odoo_bitnami_custom_tilted'],
     image_keys=[('odoo.image.registry','odoo.image.repository', 'odoo.image.tag')],
+    # port_forwards= '5678:5678',
 )
+
 load('ext://uibutton', 'cmd_button', 'location')
 
 cmd_button(name='push module',
